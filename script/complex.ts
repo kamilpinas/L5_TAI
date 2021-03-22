@@ -19,7 +19,7 @@ class ComplexNumber {
     }
     module():number
     {
-        return ((this.img*this.img)+(this.real*this.real));
+        return Math.sqrt((this.img*this.img)+(this.real*this.real)));
     }
     toString(){
         console.log('Real: '+this.real+' Img:'+this.img);
