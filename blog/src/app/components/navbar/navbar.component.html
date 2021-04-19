@@ -1,7 +1,7 @@
 <nav>
-  <ul>
-    <li><a [routerLink]="['']">Strona główna</a></li>
-    <li><a [routerLink]="['/contact']">Kontakt</a></li>
-    <li><a [routerLink]="['/blog']">Blog</a></li>
-  </ul>
+  <div class="list-group list-group-horizontal flex-fill">
+    <a [routerLink]="['']"><button type="button" class="list-group-item list-group-item-action ">Strona główna</button></a>
+    <a [routerLink]="['/contact']"><button type="button" class="list-group-item list-group-item-action ">Kontakt</button></a>
+    <a [routerLink]="['/blog']"><button type="button" class="list-group-item list-group-item-action ">Blog</button></a>
+  </div>
 </nav>

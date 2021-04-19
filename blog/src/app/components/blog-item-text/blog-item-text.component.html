@@ -1,8 +1,9 @@
-<a [routerLink]="['/blog/details/1']">
-  Więcej
-</a>
+<div class="card-body">
 
-<p>blog-item-text works!</p>
-<p>
-  {{ text  | summary:35}}
-</p>
+  <h5 class="card-title">
+    {{ text  | summary:35}}
+  </h5>
+  <a class="card-link" [routerLink]="['/blog/details/',id]">
+    <button class="btn-primary" style="width: 200px">Więcej</button>
+  </a>
+</div>

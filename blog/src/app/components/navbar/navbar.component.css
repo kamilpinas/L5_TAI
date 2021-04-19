@@ -1,0 +1,10 @@
+.list-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button{
+  background-color: dodgerblue;
+  color: white;
+}
+
